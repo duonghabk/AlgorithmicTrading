@@ -1,0 +1,119 @@
+0
+1
+00:00:00,390 --> 00:00:06,000
+So as you can figure out this is a course of intermediate level difficulty so it would be great if
+1
+
+2
+00:00:06,000 --> 00:00:08,640
+you have some Python skills.
+2
+
+3
+00:00:08,640 --> 00:00:14,480
+Basic Python skills are definitely required without which you will be a bit lost in this course.
+3
+
+4
+00:00:14,580 --> 00:00:20,580
+So I would urge you to build some level of Python proficiency and when I say Python proficiency
+4
+
+5
+00:00:21,000 --> 00:00:25,910
+I mean you should be able to understand how to write a function, how to loop through a list,
+5
+
+6
+00:00:26,190 --> 00:00:28,890
+What are dictionaries etc.
+6
+
+7
+00:00:29,070 --> 00:00:36,290
+And good to have skills would be you know some familiarity with numpy, pandas, matplotlib, statsmodel
+7
+
+8
+00:00:36,300 --> 00:00:44,820
+sklearn etc. In the code section of my course where I explain in the video how this
+8
+
+9
+00:00:44,820 --> 00:00:48,590
+code is functioning I will try to explain everything in the code.
+9
+
+10
+00:00:48,650 --> 00:00:54,690
+But if you have some familiarity you will be able to pick these videos pick these lessons
+10
+
+11
+00:00:55,080 --> 00:00:57,570
+way more quickly than if you are a complete novice.
+11
+
+12
+00:00:57,690 --> 00:01:06,480
+So I would urge you to just brush up your basic Python if you want to extract the most out of this course.
+12
+
+13
+00:01:06,480 --> 00:01:07,050
+OK.
+13
+
+14
+00:01:07,260 --> 00:01:14,220
+And some experience in trading is also required because I'll be using stocks, commodity, forex
+14
+
+15
+00:01:14,220 --> 00:01:14,890
+data etc.
+15
+
+16
+00:01:14,910 --> 00:01:20,640
+So some familiarity with trading parlance will be very appreciated because I'll be using words like
+16
+
+17
+00:01:20,670 --> 00:01:24,650
+high, low, candlesticks, stop loss.
+17
+
+18
+00:01:24,660 --> 00:01:27,190
+I'll explain what these are
+18
+
+19
+00:01:27,210 --> 00:01:32,420
+But sometimes I may miss it because it's something maybe really basic. For example going long or
+19
+
+20
+00:01:32,420 --> 00:01:38,970
+going shot etc. So If you have the basic of these trading parlance then that would also be tremendously
+20
+
+21
+00:01:38,970 --> 00:01:44,590
+helpful. And basic statistics high school level statistics and mathematics is also required for this
+21
+
+22
+00:01:44,590 --> 00:01:44,810
+course.
+22
+
+23
+00:01:44,820 --> 00:01:50,060
+So again I will underline that this courses is of intermediate level difficulty.
+23
+
+24
+00:01:50,370 --> 00:01:56,550
+So I would urge you to just brush up the areas that we think will be required.

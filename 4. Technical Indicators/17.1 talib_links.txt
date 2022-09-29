@@ -1,0 +1,6 @@
+Links to sources discussed in the lecture videos
+
+TA-Lib website: http://ta-lib.org/
+TA-Lib Python Wrapper Github Page: https://mrjbq7.github.io/ta-lib/
+TA-Lib documentation of pattern recognition: https://mrjbq7.github.io/ta-lib/func_groups/pattern_recognition.html
+Discussion on installation problems: https:/

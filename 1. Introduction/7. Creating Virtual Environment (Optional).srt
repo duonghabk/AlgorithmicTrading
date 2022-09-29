@@ -1,0 +1,647 @@
+1
+00:00:00,210 --> 00:00:07,320
+Hello friends in this lecture video we will create a virtual environment they will perform all the work
+
+2
+00:00:07,890 --> 00:00:10,010
+related to this particular course.
+
+3
+00:00:10,020 --> 00:00:14,130
+Now you may ask what on earth is this what you will enlightenment.
+
+4
+00:00:14,160 --> 00:00:20,730
+So when you installed Anaconda in the previous lecture would you and when you open Anaconda prompt you
+
+5
+00:00:20,730 --> 00:00:23,330
+will see a base and inherit it.
+
+6
+00:00:23,340 --> 00:00:28,890
+So that means that Anaconda has created a base environment for you right.
+
+7
+00:00:28,940 --> 00:00:33,340
+So now which whichever library you want to install right.
+
+8
+00:00:33,480 --> 00:00:36,610
+It will be installed in the base environment.
+
+9
+00:00:36,680 --> 00:00:37,800
+Right.
+
+10
+00:00:37,890 --> 00:00:39,740
+So what can go wrong with that.
+
+11
+00:00:40,640 --> 00:00:47,280
+So say you are working on different projects one data science project one a conference project right.
+
+12
+00:00:47,430 --> 00:00:48,870
+One a physics project.
+
+13
+00:00:48,870 --> 00:00:55,740
+The problem is that if you start a library say six months ago and now you have started working on a
+
+14
+00:00:55,740 --> 00:01:00,210
+quant finance project and now you want to install another library.
+
+15
+00:01:00,210 --> 00:01:00,810
+Right.
+
+16
+00:01:00,840 --> 00:01:07,830
+The problem is that this new library may have a dependence on the previous library that you are already
+
+17
+00:01:08,090 --> 00:01:08,700
+in start.
+
+18
+00:01:08,820 --> 00:01:09,080
+Right.
+
+19
+00:01:09,330 --> 00:01:13,880
+But when you install this new library it will install a newer version.
+
+20
+00:01:13,890 --> 00:01:19,030
+The latest version of the library that you had in started six months ago.
+
+21
+00:01:19,290 --> 00:01:25,590
+So the code that you have written six months ago on based on the library that you just installed it
+
+22
+00:01:25,590 --> 00:01:26,510
+may not work right.
+
+23
+00:01:26,520 --> 00:01:34,410
+Because whenever new libraries happen function calls keep getting placated or they keep making changes.
+
+24
+00:01:34,440 --> 00:01:42,630
+That's the problem with open source libraries is that the the new version release your code may not
+
+25
+00:01:42,630 --> 00:01:43,410
+run.
+
+26
+00:01:43,430 --> 00:01:43,980
+That's the problem.
+
+27
+00:01:43,980 --> 00:01:50,080
+So it's always recommended that you create different environments for different projects that you're
+
+28
+00:01:50,100 --> 00:01:50,640
+working on.
+
+29
+00:01:50,640 --> 00:01:51,460
+Right.
+
+30
+00:01:51,480 --> 00:01:56,730
+And creating new virtual environment is a child's play these days.
+
+31
+00:01:57,290 --> 00:02:03,660
+So just use this command gonna create name or name of the virtual environment.
+
+32
+00:02:03,660 --> 00:02:05,560
+So let's call it go on top.
+
+33
+00:02:05,580 --> 00:02:08,520
+You can have whatever name that you want right.
+
+34
+00:02:08,700 --> 00:02:12,830
+And then you will have to mention which Python do you want to use.
+
+35
+00:02:12,830 --> 00:02:13,640
+Right.
+
+36
+00:02:13,680 --> 00:02:19,280
+So by and three point eight I think poisoned by ten point nine has already been released.
+
+37
+00:02:19,380 --> 00:02:23,160
+But I'll go with Python three point eight because it's a stable vision.
+
+38
+00:02:23,250 --> 00:02:26,290
+I typically not go with the latest version of Python.
+
+39
+00:02:26,300 --> 00:02:29,150
+I typically go will with the last stable version.
+
+40
+00:02:29,150 --> 00:02:29,400
+Right.
+
+41
+00:02:29,560 --> 00:02:30,860
+It's just a hybrid.
+
+42
+00:02:30,960 --> 00:02:40,140
+So once we run this command you will see that it's the new what is the current version of and you can
+
+43
+00:02:40,140 --> 00:02:48,350
+get a newer version I don't really want in your version and as you can see it is telling you that the
+
+44
+00:02:48,350 --> 00:02:52,550
+following packages will be downloaded if you want to create this virtual environment.
+
+45
+00:02:52,850 --> 00:02:58,230
+So these are the libraries that will be installed by default.
+
+46
+00:02:58,310 --> 00:03:00,530
+When you create this new watch will environment right.
+
+47
+00:03:00,830 --> 00:03:05,810
+So when you will at the end of this you know when we create this virtual environment you would already
+
+48
+00:03:05,810 --> 00:03:08,290
+have these libraries in the start.
+
+49
+00:03:08,420 --> 00:03:10,070
+And what are these libraries.
+
+50
+00:03:10,140 --> 00:03:17,360
+PIP by ten three point eight set up dos askew light like these are some of the basic libraries that
+
+51
+00:03:17,360 --> 00:03:19,940
+you need to create any watch your environment.
+
+52
+00:03:19,940 --> 00:03:20,480
+Right.
+
+53
+00:03:20,510 --> 00:03:28,730
+So I will give it this so I'll just say yes and I'll hit enter and now it will install all these libraries
+
+54
+00:03:28,760 --> 00:03:30,920
+and the dependencies.
+
+55
+00:03:30,950 --> 00:03:33,690
+So I am going to follow this lecture with you.
+
+56
+00:03:33,800 --> 00:03:40,820
+So as you can see all these libraries have been started and your environment has been created.
+
+57
+00:03:40,820 --> 00:03:41,330
+Hooray.
+
+58
+00:03:41,330 --> 00:03:42,140
+Congratulations.
+
+59
+00:03:42,140 --> 00:03:45,810
+You have created a brand new watchful environment.
+
+60
+00:03:46,510 --> 00:03:50,830
+And you can see that Kaunda is prompting you some of the commands right.
+
+61
+00:03:50,840 --> 00:03:57,810
+So what it's saying that by default if you open Anaconda prompt it will open in the base environment
+
+62
+00:03:57,830 --> 00:03:58,550
+right.
+
+63
+00:03:58,820 --> 00:04:05,600
+All you'll have to do to kind of activate an environment is to run this command gone to activate the
+
+64
+00:04:05,600 --> 00:04:07,110
+name of the environment.
+
+65
+00:04:08,000 --> 00:04:15,110
+But before that let me actually show you how you can get the list off all the environments that you
+
+66
+00:04:15,110 --> 00:04:17,120
+have created in your system right.
+
+67
+00:04:17,150 --> 00:04:19,070
+That's pretty straightforward.
+
+68
+00:04:19,070 --> 00:04:28,210
+All you will have to do is run this command right Kaunda info to hyphens and right.
+
+69
+00:04:28,340 --> 00:04:32,350
+It will tell you all the environments that are installed in your system right.
+
+70
+00:04:32,350 --> 00:04:34,900
+So I have four environments right.
+
+71
+00:04:35,030 --> 00:04:42,050
+And most of my work is to finance related so most of my you can see that everything is pretty much dedicated
+
+72
+00:04:42,050 --> 00:04:42,730
+to the same area.
+
+73
+00:04:42,740 --> 00:04:43,340
+Right.
+
+74
+00:04:43,370 --> 00:04:43,800
+So.
+
+75
+00:04:44,540 --> 00:04:49,190
+So how do you activate the second environment that you've already created.
+
+76
+00:04:49,190 --> 00:04:53,210
+All you'll have to do is do gonna activate it.
+
+77
+00:04:53,240 --> 00:04:53,910
+Right.
+
+78
+00:04:54,020 --> 00:04:57,870
+And million run it you will see that now my environment is one.
+
+79
+00:04:57,890 --> 00:04:59,170
+Right.
+
+80
+00:04:59,180 --> 00:05:02,330
+So now if you install something right.
+
+81
+00:05:02,330 --> 00:05:08,360
+So now if you do a pip install or corner install whatever right now that liability will be installed
+
+82
+00:05:08,390 --> 00:05:11,440
+in the want virtual environment.
+
+83
+00:05:11,450 --> 00:05:12,200
+Right.
+
+84
+00:05:12,260 --> 00:05:16,200
+The fullest library that you need to install is the idea.
+
+85
+00:05:16,240 --> 00:05:16,850
+Right.
+
+86
+00:05:16,910 --> 00:05:22,780
+There are a number of ideas like spider like Jupiter notebook like by John.
+
+87
+00:05:22,790 --> 00:05:23,730
+Right.
+
+88
+00:05:23,750 --> 00:05:27,590
+I would strongly recommend you that you install spider.
+
+89
+00:05:27,610 --> 00:05:28,170
+Right.
+
+90
+00:05:28,280 --> 00:05:33,050
+So one venue downloaded and one you when you installed Anaconda.
+
+91
+00:05:33,050 --> 00:05:36,480
+Spider this is the icon of spider Idi.
+
+92
+00:05:36,560 --> 00:05:40,630
+It was already installed in your system in the base environment by default.
+
+93
+00:05:40,650 --> 00:05:40,910
+Right.
+
+94
+00:05:41,150 --> 00:05:44,930
+But we won't be able to use that because we have created a new watchful environment.
+
+95
+00:05:45,170 --> 00:05:49,320
+So we'll have to install spider I.D. as well.
+
+96
+00:05:49,320 --> 00:05:56,650
+And every time again like I mention just Google how to install a library you watch the come on must
+
+97
+00:05:56,710 --> 00:06:02,630
+do this pip installed a core nine install rate but because we have created this environment in Canada
+
+98
+00:06:03,860 --> 00:06:07,560
+I would recommend that install packages using corn right.
+
+99
+00:06:07,580 --> 00:06:10,220
+So let us see what is
+
+100
+00:06:13,160 --> 00:06:15,080
+come on Falcon 9 stole spider right.
+
+101
+00:06:15,080 --> 00:06:19,960
+So if we go to the command that is required right.
+
+102
+00:06:20,030 --> 00:06:24,960
+So gonna install minus C and a car and a spider.
+
+103
+00:06:25,490 --> 00:06:27,680
+So let me on this.
+
+104
+00:06:27,680 --> 00:06:28,150
+So.
+
+105
+00:06:28,150 --> 00:06:32,800
+So once you have installed your I.D. indicate a spider.
+
+106
+00:06:32,810 --> 00:06:37,670
+The way to launch it is that once you have activated your watch will environment.
+
+107
+00:06:37,670 --> 00:06:40,200
+Just type spider and press enter.
+
+108
+00:06:40,260 --> 00:06:40,900
+Right.
+
+109
+00:06:40,940 --> 00:06:44,470
+The problem is that for example if I run it I'll get an ETA.
+
+110
+00:06:44,480 --> 00:06:45,130
+Why.
+
+111
+00:06:45,260 --> 00:06:48,950
+Because I already have an instance of spider running right.
+
+112
+00:06:48,980 --> 00:06:51,370
+So it's saying that spider is already running.
+
+113
+00:06:51,500 --> 00:07:00,350
+So if you have launched the spider IP from any other environment trade so you will have to run this
+
+114
+00:07:00,350 --> 00:07:05,360
+command spider new instance.
+
+115
+00:07:05,390 --> 00:07:06,350
+Right.
+
+116
+00:07:06,410 --> 00:07:13,070
+So if you launch this right if you will run this then a new instance of spider will be launched for
+
+117
+00:07:13,070 --> 00:07:14,840
+your particular environment.
+
+118
+00:07:14,840 --> 00:07:15,110
+Great.
+
+119
+00:07:15,440 --> 00:07:17,290
+So just keep that in mind.
+
+120
+00:07:17,330 --> 00:07:25,360
+In addition you will have to install mean libraries popular libraries like pandas like pip install Panda.
+
+121
+00:07:25,400 --> 00:07:26,060
+What else.
+
+122
+00:07:26,060 --> 00:07:26,630
+No.
+
+123
+00:07:26,660 --> 00:07:29,450
+So not people being startled when you install pandas anyways.
+
+124
+00:07:29,450 --> 00:07:30,250
+Right.
+
+125
+00:07:30,260 --> 00:07:31,850
+Mac block liberate.
+
+126
+00:07:31,850 --> 00:07:36,770
+So as we will progress to the cause I will tell you which libraries to install.
+
+127
+00:07:36,770 --> 00:07:42,010
+And please just open your Anaconda prompt enter the virtual environment.
+
+128
+00:07:42,020 --> 00:07:47,660
+If you have created the virtual environment and then install whatever library are talking about.
+
+129
+00:07:47,660 --> 00:07:47,900
+Great.
+
+130
+00:07:47,900 --> 00:07:54,770
+When you are installing a particular library just keep one thing in mind that if you say run corner
+
+131
+00:07:54,790 --> 00:08:01,570
+installed by another whatever and if you run this particular command it will install the latest was
+
+132
+00:08:01,570 --> 00:08:04,790
+one of pandas in your system right.
+
+133
+00:08:04,820 --> 00:08:12,830
+I would strongly urge you that you use the same version of the library that I have used while creating
+
+134
+00:08:12,830 --> 00:08:15,410
+this particular course.
+
+135
+00:08:15,440 --> 00:08:15,800
+Why.
+
+136
+00:08:15,800 --> 00:08:23,000
+Because if you use a different version did like we've discussed before the different version can have
+
+137
+00:08:23,360 --> 00:08:27,110
+certain changes that will impact the code that I share.
+
+138
+00:08:27,170 --> 00:08:27,770
+Right.
+
+139
+00:08:27,770 --> 00:08:32,560
+So if you can troubleshoot that's great but it will save both of us a lot of time.
+
+140
+00:08:32,570 --> 00:08:36,780
+If you're using the same library version that I use right.
+
+141
+00:08:36,860 --> 00:08:45,170
+So all you have to do is just use a double equal to and then just provide whichever version I am using
+
+142
+00:08:45,170 --> 00:08:52,100
+so I'll give you a list of library versions that I have used it would be great if you can install the
+
+143
+00:08:52,100 --> 00:08:54,810
+same versions when you're installing the library.
+
+144
+00:08:54,830 --> 00:09:00,560
+You also need to if you want to deactivate this particular environment if you want to come out of this
+
+145
+00:09:00,560 --> 00:09:12,710
+environment I disclosed this or just do Condor the Activate Kwan right on and it will go back to base.
+
+146
+00:09:12,820 --> 00:09:14,450
+So we just gonna deactivate
+
+147
+00:09:17,210 --> 00:09:20,450
+I typically don't use this command like this closer.
+
+148
+00:09:20,460 --> 00:09:20,940
+Right.
+
+149
+00:09:20,960 --> 00:09:23,840
+So you see that we have come back to Guan right.
+
+150
+00:09:23,870 --> 00:09:26,370
+So this is how we create a virtual environment.
+
+151
+00:09:26,420 --> 00:09:29,710
+If you don't want to create virtual environment that's fine.
+
+152
+00:09:30,140 --> 00:09:32,420
+Even with the base environment you should be fine.
+
+153
+00:09:32,540 --> 00:09:34,770
+But if you created that slightly better.
+
+154
+00:09:35,100 --> 00:09:37,130
+And I would recommend you to create it right.
+
+155
+00:09:37,160 --> 00:09:43,730
+Because that will help you a while a lot of backward compatibility issues and some other issues that
+
+156
+00:09:43,730 --> 00:09:44,690
+you may face.
+
+157
+00:09:44,690 --> 00:09:47,490
+But even if you don't create a virtual environment that's fine.
+
+158
+00:09:47,500 --> 00:09:47,750
+Right.
+
+159
+00:09:48,020 --> 00:09:53,090
+So if you have if you're facing any problem pertaining to creating virtual environment posted in the
+
+160
+00:09:53,090 --> 00:09:55,430
+Q and A section and I'll do my best to resolve it.
+
+161
+00:09:56,000 --> 00:09:56,540
+Thanks a lot.
+
+162
+00:09:56,540 --> 00:09:57,960
+I'll see you in the next lecture video.

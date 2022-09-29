@@ -1,0 +1,215 @@
+1
+00:00:00,390 --> 00:00:09,120
+Hello friends before you start on discourse I strongly recommend that you install anacondas by and distribution
+
+2
+00:00:10,310 --> 00:00:17,600
+anacondas it and distribution is a free and open source Python distribution that has a number of libraries
+
+3
+00:00:18,050 --> 00:00:27,740
+that will be using in this course Anaconda is used extensively by data scientist by quants by researchers
+
+4
+00:00:27,740 --> 00:00:32,390
+in different areas like biomedical engineering physics and what not.
+
+5
+00:00:33,020 --> 00:00:40,160
+So Anaconda is one of the most popular distributions that is used and I can assure you that it would
+
+6
+00:00:40,160 --> 00:00:42,310
+make your life very easy.
+
+7
+00:00:42,320 --> 00:00:48,680
+It also has a lot of tools that will help you manage the libraries installing stuff on and starting
+
+8
+00:00:48,680 --> 00:00:54,500
+stuff and once you start using it you will start appreciating how convenient and easy to use it is right.
+
+9
+00:00:54,530 --> 00:00:56,970
+So just go to Anaconda right.
+
+10
+00:00:57,140 --> 00:01:02,450
+And then based on which our operating system you are having I'm assuming most of you will have been
+
+11
+00:01:02,450 --> 00:01:04,450
+those are Mac OS right.
+
+12
+00:01:04,460 --> 00:01:12,910
+Just go to whichever OS you have it and then install whatever version that you want.
+
+13
+00:01:13,040 --> 00:01:19,080
+I would recommend that you go with by three point seven Virgin or R Python 3 virgin and not Python tuition
+
+14
+00:01:19,520 --> 00:01:21,310
+because I'm using Python 3.
+
+15
+00:01:21,680 --> 00:01:28,220
+So once you will download right you will get like a file which is close to 500 and be in your download
+
+16
+00:01:28,220 --> 00:01:28,690
+folder.
+
+17
+00:01:28,700 --> 00:01:29,530
+Right.
+
+18
+00:01:29,570 --> 00:01:34,130
+Just double click on it and follow all the default steps.
+
+19
+00:01:34,130 --> 00:01:39,650
+Just choose all the default options and it will install Anaconda on your system.
+
+20
+00:01:39,650 --> 00:01:44,270
+OK so I have already installed it so I'm not going to do that but it's fairly straightforward.
+
+21
+00:01:44,270 --> 00:01:45,800
+So I hope that you'll will be able to do it.
+
+22
+00:01:45,800 --> 00:01:46,710
+Great.
+
+23
+00:01:46,760 --> 00:01:51,950
+Once you install it I want you to go to Anaconda prompt.
+
+24
+00:01:52,330 --> 00:01:52,680
+Right.
+
+25
+00:01:52,700 --> 00:01:54,160
+Anaconda prompt.
+
+26
+00:01:54,190 --> 00:01:54,510
+Right.
+
+27
+00:01:54,520 --> 00:01:56,060
+Or you will get it right.
+
+28
+00:01:56,090 --> 00:01:59,320
+So what is Anaconda prompt and why do we use it.
+
+29
+00:01:59,600 --> 00:02:04,880
+So you will see that in the scores I'll be asking you to install a number of libraries right.
+
+30
+00:02:04,880 --> 00:02:08,520
+Different lectures will correspond to different libraries.
+
+31
+00:02:08,530 --> 00:02:08,750
+Right.
+
+32
+00:02:08,800 --> 00:02:11,870
+So you will have to install a number of libraries.
+
+33
+00:02:11,900 --> 00:02:13,970
+And this is how you would install it.
+
+34
+00:02:14,000 --> 00:02:19,400
+So there are two package managers in Anaconda do popular package managers.
+
+35
+00:02:19,400 --> 00:02:21,670
+One is Pip and one is Canada.
+
+36
+00:02:21,710 --> 00:02:22,350
+Right.
+
+37
+00:02:22,370 --> 00:02:28,370
+So you can install any library using either pip or using the.
+
+38
+00:02:28,670 --> 00:02:37,780
+So for example if you want to install pandas right you can simply install that library's by running
+
+39
+00:02:37,900 --> 00:02:38,520
+this command.
+
+40
+00:02:38,550 --> 00:02:44,570
+Right Pip and bind us are gonna install pandas.
+
+41
+00:02:44,800 --> 00:02:50,980
+So for example if I ask you in one of my lecture that I will be using life in hands or will be using
+
+42
+00:02:51,000 --> 00:02:51,750
+cyclone.
+
+43
+00:02:51,760 --> 00:02:52,420
+Right.
+
+44
+00:02:52,420 --> 00:02:58,580
+So all you have to do is just search for Pip install life and answer something like that right.
+
+45
+00:02:58,720 --> 00:03:06,070
+And then you will get a link of what is the actual command that you need to install that particular
+
+46
+00:03:06,070 --> 00:03:06,680
+library.
+
+47
+00:03:06,700 --> 00:03:07,100
+Right.
+
+48
+00:03:07,210 --> 00:03:15,190
+So it's fairly easy it's it's it's such a display to install libraries these days some libraries can
+
+49
+00:03:15,190 --> 00:03:20,920
+get a bit tricky but I mean I won't really be covering many of those libraries in the schools right
+
+50
+00:03:21,310 --> 00:03:24,870
+but this is how you install any library.
+
+51
+00:03:25,360 --> 00:03:31,430
+I'll stop the video here and then the next lecture video will discuss how to create a virtual environment.
+
+52
+00:03:31,540 --> 00:03:34,040
+And why do we even need a virtual environment.
+
+53
+00:03:34,040 --> 00:03:35,740
+So I'll see you in the next lecture video.
+
+54
+00:03:35,740 --> 00:03:36,190
+Thanks a lot.

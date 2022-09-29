@@ -1,0 +1,109 @@
+0
+1
+00:00:00,220 --> 00:00:03,790
+This course is for a lot of demographics.
+1
+
+2
+00:00:03,790 --> 00:00:09,570
+So if you are a trader who want to automate your trading strategies you will be able to benefit the
+2
+
+3
+00:00:09,570 --> 00:00:10,800
+most from this course.
+3
+
+4
+00:00:10,920 --> 00:00:15,260
+If you already have your trading strategy and your trading strategies are live in the market,
+4
+
+5
+00:00:15,270 --> 00:00:21,360
+you are already trading using charts or performing fundamental analysis and if you're looking
+5
+
+6
+00:00:21,360 --> 00:00:27,750
+for a way to automate your strategy so that you have more time to think about more strategies and think
+6
+
+7
+00:00:27,750 --> 00:00:33,630
+about more intellectual things then you'll be the demographic that will be most benefited from
+7
+
+8
+00:00:33,630 --> 00:00:34,900
+this course.
+8
+
+9
+00:00:34,920 --> 00:00:39,600
+In addition if you are an engineer who wants to build an automated trading station this will also be
+9
+
+10
+00:00:39,600 --> 00:00:41,200
+very helpful for you.
+10
+
+11
+00:00:41,290 --> 00:00:48,590
+Our data scientists who love to work with data, live streaming financial data, how to make sense of it?
+11
+
+12
+00:00:48,740 --> 00:00:50,170
+This course
+12
+
+13
+00:00:50,190 --> 00:00:56,730
+You will also find this course helpful. And anyone who wants to gain an understanding of trading programmatically
+13
+
+14
+00:00:56,730 --> 00:01:01,660
+or anyone who is curious should be able to find this course useful.
+14
+
+15
+00:01:02,940 --> 00:01:07,370
+I would like to underscore that this course is not for high frequency traders.
+15
+
+16
+00:01:07,380 --> 00:01:18,030
+So a significant part of algorithmic trading deals with high frequency trading which delves in very
+16
+
+17
+00:01:18,030 --> 00:01:25,010
+low latency kind of trading algorithm where the algorithm is making trading decisions in 
+17
+
+18
+00:01:25,020 --> 00:01:25,570
+milliseconds
+18
+
+19
+00:01:25,620 --> 00:01:29,850
+So this course doesn't cater to that part of the algorithmic trading
+19
+
+20
+00:01:31,020 --> 00:01:32,040
+world.
+20
+
+21
+00:01:32,040 --> 00:01:36,690
+All my strategies that I will discuss in this course will be of medium to high latency.
+21
+
+22
+00:01:36,720 --> 00:01:39,370
+I just want to make this thing clear at the outset.
